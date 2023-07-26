@@ -40,3 +40,12 @@ function alphabetPosition3(text) {
         .map((el, i) => alphabet.indexOf(el)+1)
         .join(" ")
 }
+
+// OR (with .charCodeAt)
+function alphabetPosition(text) {
+    return text.toUpperCase()
+        .replace(/[^A-Z]/g,"")
+        .split("")
+        .map(el => el.charCodeAt(0) - 64)
+        .join(" ")
+}
