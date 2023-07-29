@@ -9,7 +9,7 @@ For example:
 4 --> 0 (because 4 is already a one-digit number)*/
 
 
-// SOLUTION:
+// SOLUTIONS:
 
 function persistence(num) {
     let counter = 0;
@@ -24,3 +24,18 @@ function persistence(num) {
     }
     return counter;
 }
+persistence(39); //4
+
+// OR (using array and method reduce)
+
+function persistence2(num) {
+    let counter = 0;
+    num = num.toString();
+
+    while(num.length > 1){
+        num = num.split("").map(Number).reduce((a,b) => a * b).toString();
+        counter++;
+    }
+    return counter;
+}
+persistence2(4); //0
