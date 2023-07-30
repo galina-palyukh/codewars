@@ -36,3 +36,13 @@ function noBoringZeros2(n) {
     }
 }
 noBoringZeros(9060); //906
+
+
+// OR (divided by 10)
+
+function noBoringZeros3(n) {
+    while(n%10===0 && n!==0){
+        n = n/10;
+    }
+    return n;
+}
