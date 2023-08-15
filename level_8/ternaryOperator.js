@@ -19,3 +19,7 @@ function saleHotdogs(n){
 console.log(saleHotdogs(4));// 100
 console.log(saleHotdogs(5));// 475
 console.log(saleHotdogs(100));// 9000
+
+// function saleHotdogs2(n){
+//     return n*(n<5?100:n<10?95:90);
+// }
