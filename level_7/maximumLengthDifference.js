@@ -10,7 +10,7 @@
 // Example:
 // a1 = ["hoqq", "bbllkw", "oox", "ejjuyyy", "plmiis", "xxxzgpsssa", "xxwwkktt", "znnnnfqknaz", "qqquuhii", "dvvvwz"]
 // a2 = ["cccooommaaqqoxii", "gggqaffhhh", "tttoowwwmmww"]
-// mxdiflg(a1, a2) --> 13
+// mxdiflg(a1, a2) --> 1
 
 
 
