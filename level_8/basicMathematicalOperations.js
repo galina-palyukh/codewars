@@ -10,6 +10,18 @@
 // ('*', 5, 5) --> 25
 // ('/', 49, 7) --> 7
 
-SOLUTION:
+SOLUTIONS:
+// 1:
 const basicOp = (operation, val1, val2) => eval(val1 + operation + val2);
 // basicOp("*", 5, 5); ===>  25
+// 2:
+// const basicOp = (operation, value1, value2) => {
+//    switch(operation){
+//       case '+': return value1 + value2;
+//       case '-': return value1 - value2;
+//       case '*': return value1 * value2;
+//       case '/': return value2 != 0?  value1 / value2 : "You can't divide by 0";
+//       default: return "Incorrect data entered";
+//   }
+
+// }
